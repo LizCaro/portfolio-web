@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+section {
+    padding: 50px 0;
+}
+
+/* 
+ ======================== Navigation =============================
+*/
+
+/*.nav ul.hide{
+    display: none;
+}*/
+.logo {
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: radial-gradient(circle at 54.28% 53.59%, #ff5dab 0, #ff55b2 12.5%, #f34eba 25%, #e547c1 37.5%, #d442c8 50%, #c03fcf 62.5%, #aa40d7 75%, #8f43de 87.5%, #6d47e5 100%);  
+
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    float: left;
+    margin-right: 30px;    
+}
+
+nav ul li {
+    display: inline-block;
+    color: #fff;
+    font-size:25px; 
+    margin:0 5px;
+}
+
+.nav li a {
+    color:blanchedalmond;
+    font-size: 25px;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav li :hover {
+    background-color: rebeccapurple;
+    border-radius: 2em;
+    
+}
+/*#menu {
+    top: 40px;
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    background-color: black;
+    color: white;
+    right: 0;
+}*/
+@media screen and (max-width: 865px) {
+    .nav li a {
+        font-size: 17px;
+    }
+    .logo {
+        font-size: 22px;
+        padding: 0 50px;
+    }
+}
+/* 
+ ======================== Banner =============================
+*/
+.banner {
+    background-image: url(../img/fentezi-pejzazh-49169.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(158, 158, 158, 0.38);
+    background-image: url('../img/12189704_10206124893299041_8793237470276800781_n.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.special {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* 
+ ======================== About =============================
+*/
+.about-me {
+    background: #D66D75;  /* fallback for old browsers */
+    background: radial-gradient(to right, #E29587, #D66D75);
+}
+
+.about-me h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card-body img {
+    max-width: 100%;
+}
+.card-body h4 {
+    margin-bottom: 40px;
+}
+.card-body p {
+    margin-bottom: 40px;
+    text-justify: auto;
+}
+/*Section Works*/
+#services{
+    background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+}
+
+
+
+.heading h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.services-item{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-item i{
+    width: 80px;
+    height: 80px;
+    line-height: 78px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: 1px solid #0f0f0f;
+    margin-bottom: 20px;
+}
+.services-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.services-item p {
+    text-align: justify;
+}
+/*Section contact*/
+.contact {
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.form-control {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: none;
+    color: #222;
+    border: 0;
+    border-bottom: 2px solid #222;
+    height: 3em;
+    background: none;
+}
+::placeholder { 
+    color: black;
+}
+.medium-area{
+    width:600px;
+}
+.form-group {
+    margin-bottom: 24px;
+}
+.main-btn {
+    display: inline-block;
+    background-color: #222;
+    padding: 10px 40px;
+    border: 2px solid #222;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (min-width:992px){
+    .space-left{
+        margin-left: 8.33333%;
+        
+    }
+}
+/*footer */
+footer {
+    background-image: radial-gradient(circle at 54.28% 53.59%, #ff5dab 0, #ff55b2 12.5%, #f34eba 25%, #e547c1 37.5%, #d442c8 50%, #c03fcf 62.5%, #aa40d7 75%, #8f43de 87.5%, #6d47e5 100%);  
+ }
+    footer .contact-info h5 {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700; 
+    }
+    footer .contact-info p {
+      color: #fff;
+      font-size: 14px; 
+    }
+    footer hr {
+      border-color: #333; 
+    }
+    footer .copy {
+      font-size: 14px;
+      color: #aaa; 
+    }
+    .social-media a{
+        padding: 20px;
+        text-decoration: none;
+        color: rgb(10, 10, 10);
+    }
+/*
+======================== Components =============================
+*/
+.primary-button {
+    background-color: #0d1568;
+    color: white;
+    padding: 8px 15px;
+    border: 0;
+}
+
+.card {
+    /*box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;*/
+    /*background-color: white;*/
+    margin-bottom: 50px;
+}
+.card .card-body {
+    padding: 20px;
+}
+
+.heading{
+    margin-bottom: 50px;
+}
+
+.heading h6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+textarea.form-control {
+    height: auto;
+    resize: none;
+}
+/*
+======================== Helpers =============================
+*/
+.primary-text {
+    color: darkkhaki;
+}
+.center-text {
+    text-align: center;
+}
+.space-top {
+    margin-top: 20px;
+}
